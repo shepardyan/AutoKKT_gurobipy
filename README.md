@@ -147,22 +147,6 @@ m.optimize()
 
 The returned `details` object exposes generated dual variables, slacks, complementarity binaries, processed rows, and stationarity constraints for inspection and debugging.
 
-## Current Status
-
-This repository is best understood as a focused code snapshot rather than a fully packaged library. It is useful if you want:
-
-- a compact reference implementation of KKT reformulation in `gurobipy`
-- a translation target for YALMIP-style KKT preprocessing
-- a working example of embedding the reformulation into a robust rostering model
-- a minimal bilevel example that uses the KKT reformulation directly
-
-If this is published to GitHub, the next improvements would likely be:
-
-- add `pyproject.toml`
-- add dependency and license metadata
-- add automated tests around the current validation cases
-- add a few self-contained notebooks or example scripts
-
 ## Additional Documentation
 
 For the full modeling pattern and integration notes, read [`KKT_INTEGRATION.md`](KKT_INTEGRATION.md).
