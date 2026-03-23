@@ -2,12 +2,12 @@
 
 This repository contains a small, focused Python implementation of a YALMIP-style KKT reformulation for continuous inner optimization problems built with `gurobipy`.
 
-The main entry point is [`kkt.py`](/Users/yunqi/Desktop/kkt/kkt.py), which exposes `add_kkt_reformulation(...)`. The repository also includes:
+The main entry point is [`kkt.py`](kkt.py), which exposes `add_kkt_reformulation(...)`. The repository also includes:
 
-- [`main.py`](/Users/yunqi/Desktop/kkt/main.py): validation and regression checks on small instances
-- [`test_example_py/rostering/rostering.py`](/Users/yunqi/Desktop/kkt/test_example_py/rostering/rostering.py): a larger rostering example with robust optimization structure
-- [`test_example_py/bilevel/bilevel.py`](/Users/yunqi/Desktop/kkt/test_example_py/bilevel/bilevel.py): a compact bilevel example plus reference LP cases
-- [`KKT_INTEGRATION.md`](/Users/yunqi/Desktop/kkt/KKT_INTEGRATION.md): a more detailed integration guide
+- [`main.py`](main.py): validation and regression checks on small instances
+- [`test_example_py/rostering/rostering.py`](test_example_py/rostering/rostering.py): a larger rostering example with robust optimization structure
+- [`test_example_py/bilevel/bilevel.py`](test_example_py/bilevel/bilevel.py): a compact bilevel example plus reference LP cases
+- [`KKT_INTEGRATION.md`](KKT_INTEGRATION.md): a more detailed integration guide
 
 ## What It Does
 
@@ -165,4 +165,4 @@ If this is published to GitHub, the next improvements would likely be:
 
 ## Additional Documentation
 
-For the full modeling pattern and integration notes, read [`KKT_INTEGRATION.md`](/Users/yunqi/Desktop/kkt/KKT_INTEGRATION.md).
+For the full modeling pattern and integration notes, read [`KKT_INTEGRATION.md`](KKT_INTEGRATION.md).
